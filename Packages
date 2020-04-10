@@ -8,6 +8,7 @@ Filename: Files/fzf/com.bbarrows.fzf_0.21.1+debug_iphoneos-arm-arm64-arm64e.deb
 Size: 1922400
 Installed-Size: 6232272
 MD5sum: f6b68825342e9ba4e849e56ec54f8204
+512: ec642ff65a2199cfcd958a75fc050fd6c9d1db98e246b552f8945a4d3d78bc37409221f6d82ac58eeae9e1744dcaa091a5637c1305728e1c8c41046cc0d15211
 Description: fzf - A command-line fuzzy finder - lists options piped into the process and allows searching the options via STDIN - cross compiled for ios arm64 and arm64e
 Name: fzf
 Author: cross compiled by bebrws <bebrws@gmail.com> - junegunn <junegunn.c@gmail.com>
