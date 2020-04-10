@@ -1,0 +1,14 @@
+Package: com.bbarrows.fzf
+Version: 0.21.1
+Section: Development
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Provides: fzf
+Architecture: iphoneos-arm
+Filename: Files/com.bbarrows.fzf_0.21.1+debug_iphoneos-arm-arm64-arm64e.deb
+Size: 1922400
+Installed-Size: 6232272
+MD5sum: a7c8e06c7ae7360e4542baba208e8c8c
+Description: fzf - A command-line fuzzy finder - lists options piped into the process and allows searching the options via STDIN - cross compiled for ios arm64 and arm64e
+Name: fzf
+Author: junegunn <junegunn.c@gmail.com> - cross compiled by bebrws <bebrws@gmail.com>
+Depiction: https://github.com/junegunn/fzf
