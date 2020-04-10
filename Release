@@ -1,0 +1,9 @@
+Origin: Brad Barrows's repo
+Label: Brad Barrows's repo
+Suite: stable
+Version: 1.0
+Codename: bebrwsrepo
+Architectures: iphoneos-arm
+Components: main
+Description: Brad Barrows's Cydia Repository
+
