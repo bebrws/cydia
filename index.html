@@ -5,13 +5,14 @@
 <body>
 
 <div id="title">Brad Barrows's Cydia repo</div>
+<br>
 <div id="content">
 <a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://bebdev.com/"><b>Add source to Cydia</b></a>
 <span id="warningmessage"></span>
 <br>
 <br>
-<a href="http://bebdev.com">My blog</a>
-<hr>
+<a href="http://bebdev.com">My Blog</a>
+<br>
 <a href="http://github.com/bebrws">My Github</a>
 <hr>
 <br>
@@ -127,14 +128,10 @@ xhr.onreadystatechange = function() {
 
 		//The following code is very messy. You have been warned.
 		document.getElementById('samples').innerHTML = document.getElementById('samples').innerHTML +
-			'<a href="javascript:var e = document.getElementById(\'u_' + pack.Package + '\'); e.style.display = e.style.display= (e.style.display == \'block\' ? \'none\' : \'block\');">' +
 			pack.Name + ' (' + pack.Version + ')</a><br>' +
-			'<div id="u_' + pack.Package + '" style="display:none;">' +
 			'&nbsp;&nbsp;' + pack.Description + '<br>' +
-			//(is_ios ? '&nbsp;&nbsp;<a href="' +  'cydia://url/https://cydia.saurik.com/api/share#?source=http://bebdev.com/&package=' + pack.Package + '" target="_blank">Show in Cydia.</a><br>' : '') +
 			'&nbsp;&nbsp;<a href="' + pack.Depiction + '" target="_blank">Show more info.</a><br>' +
-			'&nbsp;&nbsp;<a href="' + pack.Filename + '" target="_blank">Download the .deb package.</a><br><br>' +
-			'</div>';
+			'&nbsp;&nbsp;<a href="' + pack.Filename + '" target="_blank">Download the .deb package.</a><br><br>';
 	}
 
 };
@@ -147,11 +144,5 @@ xhr.send();
 
 </div>
 
-<!-- include this where you want the standard design template from here... -->
-<script type="text/javascript" src="../template.js"></script>
-<noscript>
-As this website uses JavaScript to generate a semi-dynamically created page, you need to activate JavaScript!
-</noscript>
-<!-- ...until here! -->
 </body>
 </html>
