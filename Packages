@@ -21,10 +21,10 @@ Maintainer: Brad Barrows <bebrws@gmail.com>
 Provides: ninja
 Architecture: iphoneos-arm
 Filename: Files/ninja/com.bbarrows.ninja_1.10.0+debug_iphoneos-arm-arm64-arm64e.deb
-Size: 221620
+Size: 234180 
 Installed-Size: 2405384 
-MD5: 4966e34478dc491b26a0e5b8c0435938
-512: db9b62bf164c328cfc730532521851e64ee30407e7754f958ef83e9cefd52660a2856d7c1eaa98bcc1cfa97bd2ff6b49dc64f3d99b15801473d650c851ebf8c6
+MD5: a95de08d47776e7572b49741ea6a9f73
+512: c74d1b1ae87d4034382809510051801e76d47b363d3d92a72cc34c4d727137cacd60b08068f6dbe6372e77f6bcb62828b2d6d49ef012b63d3c1483d393e8aa62 
 Description: ninja - a small build system with a focus on speed
 Name: ninja
 Author: cross compiled by bebrws <bebrws@gmail.com> - Original source at https://github.com/ninja-build/ninja
