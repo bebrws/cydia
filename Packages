@@ -20,7 +20,7 @@ Section: Development
 Maintainer: Brad Barrows <bebrws@gmail.com>
 Provides: ninja
 Architecture: iphoneos-arm
-Filename: Files/ninja/com.bbarrows.ninja_1.10.0+debug_iphoneos-arm-arm64-arm64e.deb
+Filename: Files/ninja/com.bbarrows.ninja_1.10.0+debug_iphoneos-arm-arm64.deb
 Size: 234180 
 Installed-Size: 2405384 
 MD5: a95de08d47776e7572b49741ea6a9f73
