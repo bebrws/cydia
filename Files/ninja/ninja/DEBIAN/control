@@ -1,0 +1,12 @@
+Package: com.bbarrows.ninja
+Version: 1.10.0
+Section: Development
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Provides: ninja
+Architecture: iphoneos-arm
+Size: 2405384
+Installed-Size: 2405384 
+Description: ninja - a small build system with a focus on speed
+Name: ninja
+Author: cross compiled by bebrws <bebrws@gmail.com> - Original source at https://github.com/ninja-build/ninja
+Depiction: https://github.com/ninja-build/ninja
