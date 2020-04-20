@@ -46,3 +46,17 @@ Name: fzf
 Author: cross compiled by bebrws <bebrws@gmail.com> - written by https://github.com/jf248
 Depiction: https://github.com/jf248/hub
 
+Package: com.bbarrows.cyapp
+Version: 0.1.0
+Section: Development
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Provides: fzf
+Architecture: iphoneos-arm
+Size: 27564
+Installed-Size: 272000
+MD5: 76f9023055d741762906c87eb54b1bae
+512: c01e2cd621352d2c38cf4bf66dea70f85b736e32761ce7fc9e86cc41e899da8932881c5fd5a772a863f2508c4f6d3799a5f8c7dec45ce1c5f60953b29745990d
+Description: cyapp - a tool to create a .app folder in /Applications which will launch a program that runs a cycript app. Making it easy to quickly script new apps from your mobile device all in cycript
+Name: cyapp
+Author: Brad Barrows - bebrws <bebrws@gmail.com>
+Depiction: https://github.com/bebrws/cyapp
