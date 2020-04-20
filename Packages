@@ -29,3 +29,20 @@ Description: ninja - a small build system with a focus on speed
 Name: ninja
 Author: cross compiled by bebrws <bebrws@gmail.com> - Original source at https://github.com/ninja-build/ninja
 Depiction: https://github.com/ninja-build/ninja
+
+Package: com.bbarrows.hub
+Version: 2.12.8
+Section: Development
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Provides: hub
+Architecture: iphoneos-arm
+Filename: Files/ninja/com.bbarrows.hub_2.12.8+debug_iphoneos-arm-arm64-arm64e.deb
+Size: 2258256
+Installed-Size: 8379232
+MD5: b0520fc316aea37f2f41f0a2aa2cb52f
+512: ff05fba897bb6c6de347ee4d6a02392dfacc74da570f0aeee44b1098029b18e43596f943e7ca9b865ee81975ca10624a1ade5c7c76c2f51ef0098d9f36ea881f 
+Description: hub - A command-line tool that makes git easier to use with GitHub - cross compiled for ios arm64 and arm64e
+Name: fzf
+Author: cross compiled by bebrws <bebrws@gmail.com> - written by https://github.com/jf248
+Depiction: https://github.com/jf248/hub
+
