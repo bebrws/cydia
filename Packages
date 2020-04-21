@@ -36,7 +36,7 @@ Section: Development
 Maintainer: Brad Barrows <bebrws@gmail.com>
 Provides: hub
 Architecture: iphoneos-arm
-Filename: Files/ninja/com.bbarrows.hub_2.12.8+debug_iphoneos-arm-arm64-arm64e.deb
+Filename: Files/hub/com.bbarrows.hub_2.12.8+debug_iphoneos-arm-arm64-arm64e.deb
 Size: 2258256
 Installed-Size: 8379232
 MD5: b0520fc316aea37f2f41f0a2aa2cb52f
@@ -56,6 +56,7 @@ Size: 27572
 Filename: Files/cyapp/com.bbarrows.cyapp_0.1.0+debug_iphoneos-arm-arm64-arm64e.deb
 Installed-Size: 272000
 MD5: ff4c7738faf796a2f37ec638283885f8
+256: f01edd1a0aae3c63dc03f119dd12be45690e145dd7cfba381a7e2ab6d43d6367
 512: 83735476f410a7cdcc31c4eec3c9dc86c86e4abb1d2d8fce3b39e2f8b57298613647e3ed5c87d420f3884bdc1d851a8fc93e03ef870dc88bae21e4d5ada17bdb
 Description: cyapp - a tool to create a .app folder in /Applications which will launch a program that runs a cycript app. Making it easy to quickly script new apps from your mobile device all in cycript
 Name: cyapp
