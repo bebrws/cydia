@@ -6,7 +6,9 @@ echo "Creating app $appname"
 
 cp -r /usr/share/CyApp/sapp.app /Applications/$appname.app
 
-sed -i "s/sapp/$appname/g" /Applications/$appname.app/Info.plist
+# Update plist
+sed  "s/sapp/$appname/g" /Applications/$appname.app/Info.plist  >  /Applications/$appname.app/Info.plist.new
+mv /Applications/$appname.app/Info.plist.new /Applications/$appname.app/Info.plist
 
 mv /Applications/$appname.app/sapp /Applications/$appname.app/$appname
 
