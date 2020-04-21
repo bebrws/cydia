@@ -73,6 +73,7 @@ Size: 3794788
 Filename: Files/cycript/com.bbarrows.cycript_0.9.594+debug_iphoneos-arm-arm64-arm64e.deb
 Installed-Size: 24000000
 MD5: 8b2c97eb5fb7c82d6f12f72fbc09392d
+256: bbd88a16e5e93dbbb6bcaa0b20d83097a4a0914b9a5124ddbbb71bcc66e13106
 512: 56732cb487cc4177e211e5fbc152c942cbd382120401555886b77814addd32b2333a7f584e47cfe327140ea1e5ba3d3eee71814e29d1a16e491893f276545859
 Description: cycript - One of the most powerful introspective/scripting tools there is for iOS and MacOS. This is my build of that project. Works on ios 13.* and built for arm64/arm64e. This will overwrite the shared libraries from other cycript builds most likely but they should match up functionaly. I haven't seen an issue. I have seen this build fix issues I had on my arm64e ipad 13.3 iOS though.
 Name: cycript
