@@ -50,14 +50,13 @@ Package: com.bbarrows.cyapp
 Version: 0.1.0
 Section: Development
 Maintainer: Brad Barrows <bebrws@gmail.com>
-Provides: fzf
+Provides: cyapp
 Architecture: iphoneos-arm
 Size: 27572
 Filename: Files/cyapp/com.bbarrows.cyapp_0.1.0+debug_iphoneos-arm-arm64-arm64e.deb
 Installed-Size: 272000
-MD5: ff4c7738faf796a2f37ec638283885f8
-256: f01edd1a0aae3c63dc03f119dd12be45690e145dd7cfba381a7e2ab6d43d6367
-512: 83735476f410a7cdcc31c4eec3c9dc86c86e4abb1d2d8fce3b39e2f8b57298613647e3ed5c87d420f3884bdc1d851a8fc93e03ef870dc88bae21e4d5ada17bdb
+MD5: 2e6e856c302f4f3a63645cfaf8873c4b
+512: fab50ef18aa875196184233c667cffb86bcc14073aaadeccb4f9ad54a531254c1e97cb1c62265d569a41091fe2ac4bf0adac415457da27a05cc32a7491cb2d8a
 Description: cyapp - a tool to create a .app folder in /Applications which will launch a program that runs a cycript app. Making it easy to quickly script new apps from your mobile device all in cycript
 Name: cyapp
 Depends: cycript

@@ -2,7 +2,7 @@ Package: com.bbarrows.cyapp
 Version: 0.1.0
 Section: Development
 Maintainer: Brad Barrows <bebrws@gmail.com>
-Provides: fzf
+Provides: cyapp
 Architecture: iphoneos-arm
 Size: 2720000
 Installed-Size: 272000
