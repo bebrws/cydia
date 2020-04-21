@@ -64,13 +64,13 @@ Author: Brad Barrows - bebrws <bebrws@gmail.com>
 Depiction: https://github.com/bebrws/cyapp
 
 Package: com.bbarrows.cycript
-Version: 0.9.0
+Version: 0.9.594
 Section: Development
 Maintainer: Brad Barrows <bebrws@gmail.com>
 Provides: cycript
 Architecture: iphoneos-arm
 Size: 3794788
-Filename: Files/cycript/com.bbarrows.cycript_0.9.0+debug_iphoneos-arm-arm64-arm64e.deb
+Filename: Files/cycript/com.bbarrows.cycript_0.9.594+debug_iphoneos-arm-arm64-arm64e.deb
 Installed-Size: 24000000
 MD5: 8b2c97eb5fb7c82d6f12f72fbc09392d
 512: 56732cb487cc4177e211e5fbc152c942cbd382120401555886b77814addd32b2333a7f584e47cfe327140ea1e5ba3d3eee71814e29d1a16e491893f276545859
