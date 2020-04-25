@@ -78,3 +78,20 @@ Description: cycript - One of the most powerful introspective/scripting tools th
 Name: cycript
 Author: Saurik
 
+
+Package: com.bbarrows.ripgrep
+Version: 12.0.1
+Section: Development
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Provides: ripgrep
+Architecture: iphoneos-arm
+Size: 3703840
+Installed-Size: 25874504
+Filename: Files/ripgrep/com.bbarrows.ripgrep_12.0.1+debug_iphoneos-arm-arm64.deb
+Description: ripgrep - ripgrep recursively searches directories for a regex pattern - cross compiled for ios arm64
+Name: ripgrep
+MD5: 80a45f2f2f0410656424be6822ee2df3
+512: 79107ab8ce04676d397596b8b2e5589d8542a387c4bd6f3a3b9de48afcbfd2b55048e22ee88e5437ce9ad3dd5df75c23ca748a6f40757c31abe03503f7296701
+Author: BurntSushi - cross compiled by bebrws <bebrws@gmail.com>
+Depiction: https://github.com/BurntSushi/ripgrep
+
