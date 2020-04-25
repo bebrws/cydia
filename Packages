@@ -85,13 +85,13 @@ Section: Development
 Maintainer: Brad Barrows <bebrws@gmail.com>
 Provides: ripgrep
 Architecture: iphoneos-arm
-Size: 3703840
+Size: 4032452
 Installed-Size: 25874504
 Filename: Files/ripgrep/com.bbarrows.ripgrep_12.0.1+debug_iphoneos-arm-arm64.deb
 Description: ripgrep - ripgrep recursively searches directories for a regex pattern - cross compiled for ios arm64
 Name: ripgrep
-MD5: 80a45f2f2f0410656424be6822ee2df3
-512: 79107ab8ce04676d397596b8b2e5589d8542a387c4bd6f3a3b9de48afcbfd2b55048e22ee88e5437ce9ad3dd5df75c23ca748a6f40757c31abe03503f7296701
+MD5: b1bec7e38ab7061e5b67a3b69afee8ee   
+512: 716909717c9ce934cd6f05ab57bf8a262f63340fc1b695fcdbdcc8389ee0cc6642e1cc0a772e4958c69c8781632aa414b0a6a5677c170d58caeb6a83f337c555
 Author: BurntSushi - cross compiled by bebrws <bebrws@gmail.com>
 Depiction: https://github.com/BurntSushi/ripgrep
 
