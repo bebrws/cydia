@@ -42,7 +42,7 @@ Installed-Size: 8379232
 MD5: b0520fc316aea37f2f41f0a2aa2cb52f
 512: ff05fba897bb6c6de347ee4d6a02392dfacc74da570f0aeee44b1098029b18e43596f943e7ca9b865ee81975ca10624a1ade5c7c76c2f51ef0098d9f36ea881f 
 Description: hub - A command-line tool that makes git easier to use with GitHub - cross compiled for ios arm64 and arm64e
-Name: fzf
+Name: hub
 Author: cross compiled by bebrws <bebrws@gmail.com> - written by https://github.com/jf248
 Depiction: https://github.com/jf248/hub
 
@@ -94,4 +94,22 @@ MD5: b1bec7e38ab7061e5b67a3b69afee8ee
 512: 716909717c9ce934cd6f05ab57bf8a262f63340fc1b695fcdbdcc8389ee0cc6642e1cc0a772e4958c69c8781632aa414b0a6a5677c170d58caeb6a83f337c555
 Author: BurntSushi - cross compiled by bebrws <bebrws@gmail.com>
 Depiction: https://github.com/BurntSushi/ripgrep
+
+Package: com.bbarrows.cling
+Version: 0.6.0
+Section: Development
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Provides: cling
+Architecture: iphoneos-arm
+Depends: com.mc.sdk
+Size: 38838124
+Installed-Size: 361000000
+Filename: Files/cling/com.bbarrows.cling_0.6.0+debug_iphoneos-arm-arm64.deb
+Description: cling - The cling C++ interpreter - https://github.com/root-project/cling
+Name: cling
+MD5: 3ddcdd53cdde5d4f71a618e65db8a32e   
+512: babe505b2924fe44272d170de2cb91366bd4ec246418161dc3e3274a0560ab52bd8ed3fb5d6182e5772fa737fc4b8090473dd8a5a55f200212a362575159a93d
+Author: Brad Barrows - bebrws <bebrws@gmail.com>
+Depiction: https://github.com/root-project/cling
+
 
