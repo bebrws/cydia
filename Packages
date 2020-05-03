@@ -109,6 +109,7 @@ Description: cling - The cling C++ interpreter - https://github.com/root-project
 Name: cling
 MD5: 85e16b64cc7e3788c7fb1a22bec6accd   
 512: 22b4d53909d0c0b92ecb13108949562217d76f85130d18e976699f2475c6d31c4152a5ac1d2244abe19498ce0ec87e0285e47bdb27e50e46fe87510476cfe34b
+256: de3534e7ee3c0faf6417016183611a215a1798fc691c52916435f091e0288f42
 Author: Brad Barrows - bebrws <bebrws@gmail.com>
 Depiction: https://github.com/root-project/cling
 
