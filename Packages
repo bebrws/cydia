@@ -107,8 +107,8 @@ Installed-Size: 361000000
 Filename: Files/cling/com.bbarrows.cling_0.6.0+debug_iphoneos-arm-arm64.deb
 Description: cling - The cling C++ interpreter - https://github.com/root-project/cling
 Name: cling
-MD5: 3ddcdd53cdde5d4f71a618e65db8a32e   
-512: babe505b2924fe44272d170de2cb91366bd4ec246418161dc3e3274a0560ab52bd8ed3fb5d6182e5772fa737fc4b8090473dd8a5a55f200212a362575159a93d
+MD5: 042968e8f1ec2e4b8be95e4db9cbde77   
+512: 2a5872a89b5c4ab78d9f09554499882f505c17b42d668311e4b0659a80bcb94b0b6a443a540973f3e3b6598a8c477a93f2045cedb9ef102d8ada9e5df60af144
 Author: Brad Barrows - bebrws <bebrws@gmail.com>
 Depiction: https://github.com/root-project/cling
 
