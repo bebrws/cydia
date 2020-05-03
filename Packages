@@ -102,14 +102,14 @@ Maintainer: Brad Barrows <bebrws@gmail.com>
 Provides: cling
 Architecture: iphoneos-arm
 Depends: com.mc.sdk
-Size: 38810292
+Size: 38811812
 Installed-Size: 361000000
 Filename: Files/cling/com.bbarrows.cling_0.6.0+debug_iphoneos-arm-arm64.deb
 Description: cling - The cling C++ interpreter - https://github.com/root-project/cling
 Name: cling
-MD5: 85e16b64cc7e3788c7fb1a22bec6accd   
-512: 22b4d53909d0c0b92ecb13108949562217d76f85130d18e976699f2475c6d31c4152a5ac1d2244abe19498ce0ec87e0285e47bdb27e50e46fe87510476cfe34b
-256: de3534e7ee3c0faf6417016183611a215a1798fc691c52916435f091e0288f42
+MD5: b559aae5b098c5f095e765b3ffab2573   
+512: 86b16dc6960a020244399b2132a19df3af25f53729be54bcfcff542859a4c30eb87c814128462ba23494f7406798f7199dc5753d8a7942b4f8d38f66de15d14a
+256: 7c0aa25ef36a7e747c21f30b43df27b894fa0af34b34fd8242cf63c7cf89c89f
 Author: Brad Barrows - bebrws <bebrws@gmail.com>
 Depiction: https://github.com/root-project/cling
 
