@@ -110,6 +110,7 @@ Name: cling
 MD5: b559aae5b098c5f095e765b3ffab2573   
 512: 86b16dc6960a020244399b2132a19df3af25f53729be54bcfcff542859a4c30eb87c814128462ba23494f7406798f7199dc5753d8a7942b4f8d38f66de15d14a
 256: 7c0aa25ef36a7e747c21f30b43df27b894fa0af34b34fd8242cf63c7cf89c89f
+1: e637a1262c630c9be28041e909f61718a00f6ec5
 Author: Brad Barrows - bebrws <bebrws@gmail.com>
 Depiction: https://github.com/root-project/cling
 
