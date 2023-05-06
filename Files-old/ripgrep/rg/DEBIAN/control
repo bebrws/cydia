@@ -1,0 +1,12 @@
+Package: com.bbarrows.ripgrep
+Version: 12.0.1
+Section: Development
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Provides: ripgrep
+Architecture: iphoneos-arm
+Size: 25874504s
+Installed-Size: 25874504
+Description: ripgrep - ripgrep recursively searches directories for a regex pattern - cross compiled for ios arm64
+Name: ripgrep
+Author: BurntSushi - cross compiled by bebrws <bebrws@gmail.com>
+Depiction: https://github.com/BurntSushi/ripgrep

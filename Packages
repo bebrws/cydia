@@ -1,117 +1,153 @@
-Package: com.bbarrows.fzf
-Version: 0.21.1
-Section: Development
-Maintainer: Brad Barrows <bebrws@gmail.com>
-Provides: fzf
+Package: com.bbarrows.cling
+Version: 0.6.0
 Architecture: iphoneos-arm
-Filename: Files/fzf/com.bbarrows.fzf_0.21.1+debug_iphoneos-arm-arm64-arm64e.deb
-Size: 1603836
-Installed-Size: 6232272
-MD5sum: f6b68825342e9ba4e849e56ec54f8204
-512: ec642ff65a2199cfcd958a75fc050fd6c9d1db98e246b552f8945a4d3d78bc37409221f6d82ac58eeae9e1744dcaa091a5637c1305728e1c8c41046cc0d15211
-Description: fzf - A command-line fuzzy finder - lists options piped into the process and allows searching the options via STDIN - cross compiled for ios arm64 and arm64e
-Name: fzf
-Author: cross compiled by bebrws <bebrws@gmail.com> - junegunn <junegunn.c@gmail.com>
-Depiction: https://github.com/junegunn/fzf
-
-Package: com.bbarrows.ninja
-Version: 1.10.0
-Section: Development
 Maintainer: Brad Barrows <bebrws@gmail.com>
-Provides: ninja
-Architecture: iphoneos-arm
-Filename: Files/ninja/com.bbarrows.ninja_1.10.0+debug_iphoneos-arm-arm64.deb
-Size: 234180 
-Installed-Size: 2405384 
-MD5: a95de08d47776e7572b49741ea6a9f73
-512: c74d1b1ae87d4034382809510051801e76d47b363d3d92a72cc34c4d727137cacd60b08068f6dbe6372e77f6bcb62828b2d6d49ef012b63d3c1483d393e8aa62 
-Description: ninja - a small build system with a focus on speed
-Name: ninja
-Author: cross compiled by bebrws <bebrws@gmail.com> - Original source at https://github.com/ninja-build/ninja
-Depiction: https://github.com/ninja-build/ninja
-
-Package: com.bbarrows.hub
-Version: 2.12.8
+Installed-Size: 361000000
+Depends: com.mc.sdk
+Provides: cling
+Filename: ./debs/com.bbarrows.cling_0.6.0+debug_iphoneos-arm-arm64.deb
+Size: 38811812
+MD5sum: b559aae5b098c5f095e765b3ffab2573
+SHA1: e637a1262c630c9be28041e909f61718a00f6ec5
+SHA256: 7c0aa25ef36a7e747c21f30b43df27b894fa0af34b34fd8242cf63c7cf89c89f
 Section: Development
-Maintainer: Brad Barrows <bebrws@gmail.com>
-Provides: hub
-Architecture: iphoneos-arm
-Filename: Files/hub/com.bbarrows.hub_2.12.8+debug_iphoneos-arm-arm64-arm64e.deb
-Size: 2258256
-Installed-Size: 8379232
-MD5: b0520fc316aea37f2f41f0a2aa2cb52f
-512: ff05fba897bb6c6de347ee4d6a02392dfacc74da570f0aeee44b1098029b18e43596f943e7ca9b865ee81975ca10624a1ade5c7c76c2f51ef0098d9f36ea881f 
-Description: hub - A command-line tool that makes git easier to use with GitHub - cross compiled for ios arm64 and arm64e
-Name: hub
-Author: cross compiled by bebrws <bebrws@gmail.com> - written by https://github.com/jf248
-Depiction: https://github.com/jf248/hub
+Description: cling - The cling C++ interpreter - https://github.com/root-project/cling
+Author: Brad Barrows - bebrws <bebrws@gmail.com>
+Depiction: https://github.com/root-project/cling
+Name: cling
 
 Package: com.bbarrows.cyapp
 Version: 0.1.0
-Section: Development
-Maintainer: Brad Barrows <bebrws@gmail.com>
-Provides: cyapp
 Architecture: iphoneos-arm
-Size: 27588
-Filename: Files/cyapp/com.bbarrows.cyapp_0.1.0+debug_iphoneos-arm-arm64-arm64e.deb
+Maintainer: Brad Barrows <bebrws@gmail.com>
 Installed-Size: 272000
-MD5: be86b210dd312a8e84570ce5a77082bb
-512: 730913048d0ce99a59343b63f31d46fd0d89d751b69d09ae771e869393c6216aafb8732d96c0306ae9d6448768a80057d1b464c07c2a6fefdf320f0762db2200
-Description: cyapp - a tool to create a .app folder in /Applications which will launch a program that runs a cycript app. Making it easy to quickly script new apps from your mobile device all in cycript
-Name: cyapp
 Depends: cycript
+Provides: cyapp
+Filename: ./debs/com.bbarrows.cyapp_0.1.0+debug_iphoneos-arm-arm64-arm64e.deb
+Size: 27588
+MD5sum: be86b210dd312a8e84570ce5a77082bb
+SHA1: 9821b12b7329d20026189a25194bfcc3d88b7dd5
+SHA256: 1ea988b4eb27d774bd837ae17bc5800fc913274b964bc366e003f2235a5f1e62
+Section: Development
+Description: cyapp - a tool to create a .app folder in /Applications which will launch a program that runs a cycript app. Making it easy to quickly script new apps from your mobile device all in cycript
 Author: Brad Barrows - bebrws <bebrws@gmail.com>
 Depiction: https://github.com/bebrws/cyapp
+Name: cyapp
 
 Package: com.bbarrows.cycript
 Version: 0.9.594
-Section: Development
-Maintainer: Brad Barrows <bebrws@gmail.com>
-Provides: cycript
 Architecture: iphoneos-arm
-Size: 3793276
-Filename: Files/cycript/com.bbarrows.cycript_0.9.594+debug_iphoneos-arm-arm64-arm64e.deb
+Maintainer: Brad Barrows <bebrws@gmail.com>
 Installed-Size: 24000000
-MD5: 3565a8b5e0e9dbee758a8a13655b41f1
-512: cb353fe11a3058a7185794189235437934f6952a0b6412c51433ad69c7de7edd20d9c224bf6c1ce0ed9c7c6c05739d108c9668cfb3f06050fea708ecdfda2eef
-Description: cycript - One of the most powerful introspective/scripting tools there is for iOS and MacOS. This is my build of that project. Works on ios 13.* on an arm64 iPhoneX using Checkra!n. Doesnt work with Unc0ver so far. This will overwrite the shared libraries from other cycript builds (libcycript.dylib) but the dylibs should provide the same symbols.
-Name: cycript
+Provides: cycript
+Filename: ./debs/com.bbarrows.cycript_0.9.594+debug_iphoneos-arm-arm64-arm64e.deb
+Size: 3793276
+MD5sum: 3565a8b5e0e9dbee758a8a13655b41f1
+SHA1: cf9b6669de8d5e773267342b2cc483c412918cd7
+SHA256: c86bf8ecd31fbb22d426e63148fbecc3b363dba258a69909e2aa2024a027d1af
+Section: Development
+Description: cycript - One of the most powerful introspective/scripting tools there is for iOS and MacOS. This is my build of that project. Works on ios 13.* and built for arm64/arm64e
 Author: Saurik
+Name: cycript
 
+Package: com.bbarrows.fzf
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: bbarrows
+Installed-Size: 6088
+Filename: ./debs/wo-control-com.bbarrows.fzf_0.21.1+debug_iphoneos-arm-arm64-arm64e.deb
+Size: 1922400
+MD5sum: a7c8e06c7ae7360e4542baba208e8c8c
+SHA1: 796d54304029263a7d1fd8c4e3d4cd3a576133a5
+SHA256: 656f177c2097a644ca7fdac44cad048791200939a462a425f1fe6cfa1264731c
+Section: System
+Description: fzf fuzzy string search cli tool
+Tag: role::development
+Author: bbarrows
+Name: fzf
+
+Package: com.bbarrows.fzf
+Version: 0.21.1
+Architecture: iphoneos-arm
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Installed-Size: 6232272
+Provides: fzf
+Filename: ./debs/com.bbarrows.fzf_0.21.1+debug_iphoneos-arm-arm64-arm64e.deb
+Size: 1603836
+MD5sum: f6b68825342e9ba4e849e56ec54f8204
+SHA1: e26cde2e83b8375e78114afce65d21101738c277
+SHA256: d60a06ef03626bb54be063701e97fbe62a9509858e53f119ebdcc9d136169d77
+Section: Development
+Description: fzf - A command-line fuzzy finder - lists options piped into the process and allows searching the options via STDIN - cross compiled for ios arm64 and arm64e
+Author: cross compiled by bebrws <bebrws@gmail.com> - junegunn <junegunn.c@gmail.com>
+Depiction: https://github.com/junegunn/fzf
+Name: fzf
+
+Package: com.bbarrows.hub
+Version: 2.12.8
+Architecture: iphoneos-arm
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Installed-Size: 8379232
+Provides: hub
+Filename: ./debs/com.bbarrows.hub_2.12.8+debug_iphoneos-arm-arm64-arm64e.deb
+Size: 2258256
+MD5sum: b0520fc316aea37f2f41f0a2aa2cb52f
+SHA1: 96e6f1447cfa70527e33e3588edc21d2206aafa8
+SHA256: aeee540c65e4bcdc06d638b5ec59bd6ddeafe830c4f3703f33cf943aaf126465
+Section: Development
+Description: hub - A command-line tool that makes git easier to use with GitHub - cross compiled for ios arm64 and arm64e
+Author: cross compiled by bebrws <bebrws@gmail.com> - written by https://github.com/jf248
+Depiction: https://github.com/jf248/hub
+Name: fzf
+
+Package: com.bbarrows.ninja
+Version: 1.10.0
+Architecture: iphoneos-arm
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Installed-Size: 2405384
+Provides: ninja
+Filename: ./debs/com.bbarrows.ninja_1.10.0+debug_iphoneos-arm-arm64.deb
+Size: 234180
+MD5sum: a95de08d47776e7572b49741ea6a9f73
+SHA1: 2f939315110afb1b4ffc2cb830786677359e343d
+SHA256: 887da134d55427b5065fbec0dfdac596140521206f0784326b3e2925aa85bc44
+Section: Development
+Description: ninja - a small build system with a focus on speed
+Author: cross compiled by bebrws <bebrws@gmail.com> - Original source at https://github.com/ninja-build/ninja
+Depiction: https://github.com/ninja-build/ninja
+Name: ninja
 
 Package: com.bbarrows.ripgrep
 Version: 12.0.1
-Section: Development
-Maintainer: Brad Barrows <bebrws@gmail.com>
-Provides: ripgrep
 Architecture: iphoneos-arm
-Size: 4032452
+Maintainer: Brad Barrows <bebrws@gmail.com>
 Installed-Size: 25874504
-Filename: Files/ripgrep/com.bbarrows.ripgrep_12.0.1+debug_iphoneos-arm-arm64.deb
+Provides: ripgrep
+Filename: ./debs/com.bbarrows.ripgrep_12.0.1+debug_iphoneos-arm-arm64.deb
+Size: 4032452
+MD5sum: b1bec7e38ab7061e5b67a3b69afee8ee
+SHA1: 51e75d2682f1b0851250143ef46fdc3ad83b505b
+SHA256: da8b101efb3e11232c2c147131e0f92bab9af16b2a7d3e25934212454ecbc6d0
+Section: Development
 Description: ripgrep - ripgrep recursively searches directories for a regex pattern - cross compiled for ios arm64
-Name: ripgrep
-MD5: b1bec7e38ab7061e5b67a3b69afee8ee   
-512: 716909717c9ce934cd6f05ab57bf8a262f63340fc1b695fcdbdcc8389ee0cc6642e1cc0a772e4958c69c8781632aa414b0a6a5677c170d58caeb6a83f337c555
 Author: BurntSushi - cross compiled by bebrws <bebrws@gmail.com>
 Depiction: https://github.com/BurntSushi/ripgrep
+Name: ripgrep
 
-Package: com.bbarrows.cling
-Version: 0.6.0
-Section: Development
-Maintainer: Brad Barrows <bebrws@gmail.com>
-Provides: cling
+Package: com.bebrws.flexing
+Version: 1.3.1
 Architecture: iphoneos-arm
-Depends: com.mc.sdk
-Size: 38811812
-Installed-Size: 361000000
-Filename: Files/cling/com.bbarrows.cling_0.6.0+debug_iphoneos-arm-arm64.deb
-Description: cling - The cling C++ interpreter - https://github.com/root-project/cling
-Name: cling
-MD5: b559aae5b098c5f095e765b3ffab2573   
-512: 86b16dc6960a020244399b2132a19df3af25f53729be54bcfcff542859a4c30eb87c814128462ba23494f7406798f7199dc5753d8a7942b4f8d38f66de15d14a
-256: 7c0aa25ef36a7e747c21f30b43df27b894fa0af34b34fd8242cf63c7cf89c89f
-1: e637a1262c630c9be28041e909f61718a00f6ec5
-Author: Brad Barrows - bebrws <bebrws@gmail.com>
-Depiction: https://github.com/root-project/cling
-
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Installed-Size: 296
+Pre-Depends: firmware (>= 8.0)
+Depends: libflex
+Filename: ./debs/com.bebrws.flexing.deb
+Size: 23020
+MD5sum: 7e00b61cf49a673949d0706f17b8edfc
+SHA1: 404cf4daa0791ce7af8ff788fbacf8504cd1d492
+SHA256: b32588f12c12e463ddda062b8149872fc32d8ab78260ca429fd590626ed0b58c
+Section: Utilities
+Description: Rebuilt https://github.com/NSExceptional/FLEXing and added a blacklist for bundle ids
+Author: Tanner Bennett <tannerbennett@me.com>
+Name: FLEXing
 

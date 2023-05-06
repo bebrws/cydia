@@ -1,0 +1,13 @@
+Package: com.bbarrows.cyapp
+Version: 0.1.0
+Section: Development
+Maintainer: Brad Barrows <bebrws@gmail.com>
+Provides: cyapp
+Architecture: iphoneos-arm
+Size: 2720000
+Installed-Size: 272000
+Description: cyapp - a tool to create a .app folder in /Applications which will launch a program that runs a cycript app. Making it easy to quickly script new apps from your mobile device all in cycript
+Name: cyapp
+Depends: cycript
+Author: Brad Barrows - bebrws <bebrws@gmail.com>
+Depiction: https://github.com/bebrws/cyapp
